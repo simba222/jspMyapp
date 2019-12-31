@@ -1,7 +1,7 @@
 <!-- main.jsp -->
-<%@ page contentType="text/html; charset=EUC-KR"%>
+<%@ page contentType="text/html; charset=UTF-8"%>
 <%
-		response.setCharacterEncoding("EUC-KR");
-		String msg = "¿À´ÃÀº Áñ°Å¿î ¼ö¿äÀÏ~~~~";
+		response.setCharacterEncoding("UTF-8");
+		String msg = "ì˜¤ëŠ˜ì€ ì¦ê±°ìš´ ìˆ˜ìš”ì¼~~~~";
 %>
 <h1><%=msg%></h1>
