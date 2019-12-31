@@ -1,0 +1,17 @@
+@charset "utf-8";
+@import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');
+
+div.bodywrap {width:1200px; margin:0 auto; font-family:'Nanum Gothic';}
+div.bodywrap tabe.list{border-collapse:collapse; border-spacing:0; width:100%;}
+
+.list {clear:both;width:100%; border-top:solid 1px #919191; line-height:1.6; margin-bottom:10px; border-spacing:0; font-size:13px;  word-break:keep-all;}
+.list thead th, .list td {word-break:keep-all; border-bottom:1px solid #dcd9d9; text-align:center;  padding:8px;  }
+.list thead th {font-size:16px; font-weight:bold; color:#000; background:#fafafa; border-left:1px solid #dcd9d9; border-bottom:1px solid #919191;}
+.list thead th:first-child {border-left:0; }
+.list thead th:last-child {border-right:0; }
+.list tbody th {color:#333; font-weight:normal; background:#fafafa; }
+.list td {border-left:1px solid #dcd9d9; }
+.list td:first-child {border-left:0;}
+.list td:last-child {border-right:0;}
+
+.c {text-align:center; font-size:18px; font-weight:bold; color:#e35b00;}
